@@ -1,0 +1,309 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F9FA;
+}
+
+header {
+    color: #000;
+}
+
+/* Styling for the navigation bar background and spacing */
+.navbar {
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title{
+    display: inline-block;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    margin-left: 5em;
+}
+
+.navbar:first-child{
+    margin-right: auto;
+}
+
+#navbarNav{
+    display: inline-block;
+    justify-content: right;
+    padding:0;
+    margin-right: 5em;
+}
+
+/* Styling for the navigation toggle button */
+.navbar-toggler-icon {
+    background-color: #333; /* Change color of the toggle icon */
+}
+
+/* Styling for the active menu item */
+.nav-item.active {
+    color: red; /* Change background color of active menu item */
+}
+
+main {
+    margin-top: 2em;
+    max-width: 100%;
+}
+
+#mainNav{
+    margin-left: 5%;
+}
+
+#mainNavDiv{
+    position: fixed;
+}
+
+#mainNavDiv a{
+    color: white;
+}
+
+.container-fluid a{
+    color:black;
+}
+
+.input-group{
+    display: flex;
+    width: 100%;
+    align-self: center;
+    margin-bottom: 3em;
+}
+
+.searchbardiv{
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.search{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.post {
+    background-color: #fff;
+    padding: 1.5em;
+    margin-bottom: 1.5rem;
+}
+
+.post h2 {
+    margin-bottom: 0.5rem;
+}
+
+.post-content {
+    margin-bottom: 1rem;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.post-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.post-date {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.comment-link {
+    font-size: 0.8rem;
+    color: #333;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.comment-link:hover {
+    color: #555;
+}
+
+.postpage p{
+    margin-bottom: 2em;
+}
+
+/* Container styles */
+.container {
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Post styles */
+.post {
+    margin-bottom: 30px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.post h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+.post-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.post-content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Comments section styles */
+.comments-section {
+    margin-top: 40px;
+}
+
+.comments-section p{
+    font-weight: bold;
+}
+
+.container h1{
+    margin-bottom: 0em;
+}
+
+.container h2{
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    margin-top:1em;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.comment p {
+    font-size: 1em;
+    color: #000;
+}
+
+/* Comment form styles */
+#comment-form {
+    margin-top: 20px;
+}
+
+#comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-bottom: 3%;
+}
+
+#comment-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#comment-form button:hover {
+    background-color: #0056b3;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.container button{
+    margin-top: 1em;
+}
+
+
+.post {
+    transition: opacity 0.5s;
+    opacity: 1; 
+}
+
+.post.hidden {
+    opacity: 0;
+}
+
+#postsTab h3{
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+#postsTab h2{
+    font-weight: bold;
+}
+
+#postDeleteButton{
+    margin-bottom: 1em;
+    padding: 0 5%;
+}
+
+#mainContainer{
+    width: 70%;
+}
+
+#createPostContainer{
+    margin-left: 13%;
+}
+
+#profileContainer{
+    margin-left: 10%;
+}
+
+#createPost{
+    width: 70%;
+}
+
+#poster{
+    margin-left: 13%;
+}
+
+#posterContainer {
+    width: 70%;
+}
+
+#posterContainer strong{
+    font-size: 1.3em;
+}
+
+#posterContainer p{
+    margin-bottom: 1em;
+}
+
+#postPage{
+    margin-left: 13%;
+}
+
+#postPageContainer{
+    width: 70%;
+}
